@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Curriculum vitae -->
+					<section id="cvitae" class="three">
+						<div class="container" style="text-align: center;">
+
+							<header>
+								<h2>Curriculum vitae</h2>
+							</header>
+
+
+						</div>
+					
+
+						<div class="container">
+
+							<div id="contenedor">
+  
+								  
+								<!-- COLUMNA 2 -->  
+									
+								<div class="columna2">
+									<!-- FOTO -->
+									<header>
+											<div id="headshot" class="quickFade">
+											  <img src="assets/conce2.png" alt="Concepción Márquez" />
+											</div>
+											
+											<div id="name">
+											  <h1 >{{nombre}}</h1>
+											  <h1 >{{estudios}}</h1> 
+											  <p><a><span class="label">Email: </span> concemarquezr@gmail.com</a> <br>
+											  <a href="tel:+666558899">Numero de telefono</a></p>
+											</div>
+											<div class="bottom">
+
+												<!-- Social Icons -->
+													<ul class="icons">
+							
+														<li><a href="https://github.com"><span class="label">Github</span></a></li>
+														<li><a href="https://www.linkedin.com/"><span class="label">LinkedIn</span></a></li>
+													</ul>
+													
+											</div>
+				
+									</header>
+
+									<hr class="separador_largo"/>
+								  
+									<!-- PERFIL PROFESIONAL -->
+									<h2>{{perfil}}</h2>
+									<p >Actualmente me encuentro finalizando mis estudios de <strong> Ingeniería Informática –
+										Ingeniería del Software </strong>en la Universidad de Sevilla.
+										Tengo conocimientos avanzados en <strong>Java, JSP, Python, CSS, HTML, PL/SQL</strong>. Y experiencia en <strong>C, 
+										JavaScript, JDK, PHP, UML</strong>. <br>
+										He trabajado con frameworks: <strong>Spring Boot y Django</strong>. <br>
+										Uso de metodología <strong>Scrum</strong> en los proyetos. <br>
+										Otros conocimientos informáticos en: <strong>Visual Studio, Eclipse, GitHub, Codacy, Travis CI, Clockify, 
+										Google Drive, One Drive, Octave, MATLAB</strong>.</p>
+									
+
+								  <hr class="separador_largo"/>
+								  
+								  <!-- EDUCACIÓN -->
+								  <h2>{{educacion}}</h2>
+                                  
+                                <table cellspacing="20" cellspadding="1000">
+                                    <caption><h4>Lista de títulos</h4></caption>
+                                    <thead>
+                                        <tr>
+                                            <th>Titulo</th>
+                                            <th>Institución</th>
+                                            <th>Año</th>    
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>{{titulo}}</td>
+                                            <td>{{instituto}}</td>
+                                            <td>{{duracion}}</td>    
+                                        </tr>
+                                        <tr>
+                                            <td>Ingeniería Informática - Ingeniaría del Software</td>
+                                            <td>Universidad de Sevilla</td>
+                                            <td>2016 - Actualente</td>    
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            
+
+								  								  
+								  <hr class="separador_largo"/>
+								  
+								  <!-- Aptitudes -->
+								  <h2>{{aptitudes}}</h2>
+								  <ul>
+									  <li>Resolución de problemas</li>
+									  <li>Organización</li>
+									  <li>Trabajo en equipo</li>
+									  <li>Gestión del tiempo</li>
+									  <li>Atención a los detalles</li>
+									  <li>Compromiso</li>
+									  <li>Empatía</li>
+									  <li>Aprendizaje continuo</li>
+								  </ul>
+								  
+								  
+								  <hr class="separador_largo"/>
+
+
+								   
+								   <p class="titulo2">Otros datos</p>
+
+								  	<ul>
+										<li><strong>Disponibilidad </strong> <br> Media jornada</li>
+										<li><strong>Incorporación inmediata </strong> <br> Sí</li>
+										<li><strong>Observaciones </strong> <br> Actualmente estoy realizando mi TFG acerca de un estudio comparativo de bases de datos NoSQL</li>
+									</ul>
+
+							   <hr class="separador_largo"/>
+
+							   
+
+								</div>
+								</div>
+							 
+						</div>
+					</section>
+
+				
+
+			</div>
+        <!-- Formulario -->
+			<div id="formulario">
+
+				<form id="contact_form">
+                    <fieldset>
+                    
+                    <legend>Contacta conmigo</legend>
+                    
+                    
+                    <!-- Text input-->
+                    
+                    <div>
+                      <label>*Nombre</label> 
+                        <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                      <span class="input-group-addon"></span>
+                      <input name="last_name" placeholder="Nombre" class="form-control"  type="text" required>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <!-- Text input-->
+                           <div class="form-group">
+                      <label class="col-md-4 control-label">E-Mail</label>  
+                        <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                      <input name="email" placeholder="Email" class="form-control"  type="email">
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+                    <!-- Text input-->
+                           
+                    <div class="form-group">
+                      <label class="col-md-4 control-label">Telefono</label>  
+                        <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                      <input name="phone"  class="form-control" type="text">
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+                    <!-- Select Basic -->
+                       
+                    <div class="form-group"> 
+                      <label class="col-md-4 control-label">Genero</label>
+                        <div class="col-md-4 selectContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                        <select name="state" class="form-control selectpicker" >
+                          <option value=" " >Elige tu genero</option>
+                          <option>Mujer</option>
+                          <option>Hombre</option>
+                          <option>Binario</option>
+                          <option>Prefiero no decirlo</option>
+                          
+                        </select>
+                      </div>
+                    </div>
+                    </div>
+                    
+                   
+                    <!-- radio checks -->
+                     <div class="form-group">
+                                            <label class="col-md-4 control-label">¿Has visto errores en la pagina?</label>
+                                            <div class="col-md-4">
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="hosting" value="yes" /> Si
+                                                    </label>
+                                                </div>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="hosting" value="no" /> No
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                    
+                    <!-- Text area -->
+                      
+                    <div class="form-group">
+                      <label class="col-md-4 control-label">Comentarios</label>
+                        <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                <textarea class="form-control" name="comment"></textarea>
+                      </div>
+                      </div>
+                    </div>
+                    
+                    
+                    <!-- Button -->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label"></label>
+                      <div class="col-md-4">
+                        <button type="submit" class="btn btn-warning" >Enviar <span class="glyphicon glyphicon-send"></span></button>
+                      </div>
+                    </div>
+                    
+                    </fieldset>
+                    </form>
+                    </div>
+
+
+</body>
+</html>
